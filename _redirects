@@ -23,7 +23,9 @@
 /voor-groepen/*  /particulier#sport  301
 /personal-training  /particulier#sport  301
 /personal-training/*  /particulier#sport  301
-/bedrijven/*  /bedrijven  301
+/bedrijven/bedrijven-stoelmassage  /bedrijven  301!
+/bedrijven/bedrijven-stoelmassage/  /bedrijven  301!
+/bedrijven/*  /bedrijven  301!
 /voor-bedrijven  /bedrijven  301
 /voor-bedrijven/*  /bedrijven  301
 /stoelmassage  /bedrijven  301
