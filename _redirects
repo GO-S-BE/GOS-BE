@@ -53,3 +53,5 @@
 /wp-admin  /  301
 /wp-admin/*  /  301
 /wp-login.php  /  301
+/https:/*  /  301!
+/http:/*  /  301!
