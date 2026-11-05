@@ -834,6 +834,10 @@
   .page-hero-inner { position: relative; z-index: 1; }
   @media (max-width: 980px) { .page-hero { min-height: 460px; padding: 6rem 1.5rem 2.5rem; } .page-hero-wash img, .hero-sketch { opacity: .32; } }
   .footer-logo { gap: 0; }
+  .logo .logo-txt { display: flex; flex-direction: column; line-height: 1; color: var(--ink); }
+  .logo .logo-txt b span { color: var(--teal); }
+  .logo-txt b { font-weight: 900; }
+  .logo-txt small { font-size: .55em; font-weight: 600; font-style: italic; color: var(--teal); letter-spacing: .02em; margin-top: .18em; }
   .nw { white-space: nowrap; }
   @media (max-width: 980px) { .footer-bar-brand { align-items: center; text-align: center; } .footer-logo, .footer-photos { justify-content: center; } .footer-bar { flex-direction: column; align-items: center; padding-right: 0; } .footer-bar-group { width: 100%; align-items: center; text-align: center; } }
   @media (hover: none) { .chat-bubble { display: none; } }
@@ -843,7 +847,7 @@
 <body>
 
 <nav>
-  <a href="index.html" class="logo"><img src="img/logo-icon.webp" class="logo-icon" alt="">Feel <span>Good</span></a>
+  <a href="index.html" class="logo" aria-label="GO-S home"><img src="img/logo-icon.webp" class="logo-icon" alt=""><span class="logo-txt"><b>GO<span>-S</span></b><small>feel good</small></span></a>
   <button class="nav-toggle" aria-label="Menu" onclick="this.nextElementSibling.classList.toggle('nav-open')"><span></span></button>
   <ul>
     <li><a href="index.html">Home</a></li>
